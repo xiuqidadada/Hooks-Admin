@@ -1,11 +1,9 @@
 import ReactDOM from "react-dom";
 import "@/styles/reset.less";
 import "@/assets/iconfont/iconfont.less";
-import "@/assets/fonts/font.less";
-// import "antd/dist/antd.less";
+import "antd/dist/antd.less";
 import "@/styles/common.less";
 import "@/language/index";
-import "virtual:svg-icons-register";
 import { PersistGate } from "redux-persist/integration/react";
 import { Provider } from "react-redux";
 import { store, persistor } from "@/redux";
